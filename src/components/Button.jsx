@@ -1,6 +1,6 @@
 export default ({ newQuote }) => {
   return (
-    <button onClick={() => newQuote()} className="btn btn-default btn-dark">
+    <button onClick={() => newQuote()}>
       New Quote
     </button>
   );

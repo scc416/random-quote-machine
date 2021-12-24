@@ -4,12 +4,12 @@
   color: #353535;
   text-align: justify;
   text-justify: inter-character;
+  font-family: "Crimson Pro";
 }
 
 body {
   width: 100vw;
   height: 100vh;
-  font-family: "Crimson Pro";
   font-size: 1.5em;
 }
 
@@ -27,7 +27,6 @@ body {
 main {
   margin: 1em;
   width: 500px;
-  border-radius: 10px;
   background-color: #f1f1f1;
   box-shadow: 0.3em 0.3em #3535354d;
   display: flex;
@@ -39,7 +38,7 @@ main {
   font-style: italic;
   text-align: right;
   width: 100%;
-  padding: 7px 0px;
+  padding: 0.1em 0 0.8em 0;
 }
 
 footer {
@@ -52,15 +51,17 @@ i {
   padding: 0.1em;
 }
 
-.quotation-mark {
-  position: relative;
-  bottom: 8px;
-}
-
 .fa-twitter-square {
   color: #1da1f2;
 }
 
 .fa-telegram {
   color: #0088cc;
+}
+
+button {
+  border-radius: 0;
+  font-size: 0.7em;
+  padding: 0.2em 0.4em;
+  margin: 0;
 }

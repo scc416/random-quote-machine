@@ -4,7 +4,7 @@ export default ({ quote, author }) => {
       <div>
         <q>{quote}</q>
       </div>
-      <div className="author">—{author}</div>
+      <div className="author">— {author}</div>
     </>
   );
 };
