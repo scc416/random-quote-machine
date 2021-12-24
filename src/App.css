@@ -1,38 +1,59 @@
-.App {
-  text-align: center;
+main {
+  background: url(https://images.unsplash.com/photo-1574251618046-75ca15efd65e?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=1250&q=80);
+  background-size: cover;
+  background-position: center center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+#app {
+  opacity: 100%;
+  max-width: 80%;
+  width: 500px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 5px 5px rgba(0, 0, 0, 0.3);
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+#quote-box {
   display: flex;
   flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+  padding: 20px 20px 15px 20px;
 }
 
-.App-link {
-  color: #61dafb;
+#author {
+  font-style: italic;
+  text-align: right;
+  width: 100%;
+  padding: 7px 0px;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+}
+
+i {
+  padding: 5px;
+  color: black;
+}
+
+.quotation-mark {
+  position: relative;
+  bottom: 8px;
+}
+
+#text {
+  font-size: 18px;
+}
+
+.fa-twitter-square {
+  color: #1DA1F2;
+}
+
+.fa-telegram {
+  color: #0088cc;
 }
