@@ -3,7 +3,7 @@ import quotes from "../quotes";
 
 const randomNum = () => Math.floor(Math.random() * 10);
 
-export default () => {
+const useQuoteData = () => {
   const [num, setNum] = useState(randomNum());
   const { quote, author } = quotes[num];
 
@@ -17,3 +17,5 @@ export default () => {
 
   return { quote, author, getRandomQuote };
 };
+
+export default useQuoteData;
