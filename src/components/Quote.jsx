@@ -1,4 +1,4 @@
-export default Quote = ({ quote, author }) => {
+const Quote = ({ quote, author }) => {
   return (
     <>
       <div>
@@ -8,3 +8,5 @@ export default Quote = ({ quote, author }) => {
     </>
   );
 };
+
+export default Quote;

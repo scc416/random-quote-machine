@@ -4,7 +4,7 @@ import Quote from "./components/Quote";
 import Share from "./components/Share";
 import Button from "./components/Button";
 
-export default App = () => {
+const App = () => {
   const { quote, author, getRandomQuote } = useQuoteData();
 
   return (
@@ -17,3 +17,5 @@ export default App = () => {
     </main>
   );
 };
+
+export default App;

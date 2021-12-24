@@ -1,4 +1,4 @@
-export default Share = ({ quote, author }) => {
+const Share = ({ quote, author }) => {
   return (
     <div className="flex-container">
       <a
@@ -23,3 +23,5 @@ export default Share = ({ quote, author }) => {
     </div>
   );
 };
+
+export default Share;
