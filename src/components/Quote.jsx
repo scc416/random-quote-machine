@@ -1,4 +1,4 @@
-export default ({ quote, author }) => {
+export default Quote = ({ quote, author }) => {
   return (
     <>
       <div>

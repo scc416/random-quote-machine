@@ -1,4 +1,4 @@
-export default ({ newQuote }) => {
+export default Button = ({ newQuote }) => {
   return (
     <button onClick={() => newQuote()}>
       New Quote

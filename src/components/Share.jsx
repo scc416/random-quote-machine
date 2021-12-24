@@ -1,4 +1,4 @@
-export default ({ quote, author }) => {
+export default Share = ({ quote, author }) => {
   return (
     <div className="flex-container">
       <a
