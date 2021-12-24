@@ -1,4 +1,4 @@
-export default [
+const quotes = [
   {
     quote:
       "Clear-sightedness, persistence, and transcendence can be excellent antidotes for ultimate peace of mind and buoyancy in life, and sometimes valuable cures against social and administrative bashing.",
@@ -48,3 +48,5 @@ export default [
     author: "Emma Goldman",
   },
 ];
+
+export default quotes;
