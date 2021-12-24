@@ -34,4 +34,5 @@ https://the-quote.netlify.app/
 
 ## Credit
 
+- Background photo by Kon Karampelas on [Unsplash](https://unsplash.com/).
 - Favicons made by [Freepik](https://www.flaticon.com/authors/freepik) from [https://www.flaticon.com/](https://www.flaticon.com/).
