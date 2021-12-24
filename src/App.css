@@ -2,6 +2,8 @@
   margin: 0;
   padding: 0;
   color: #353535;
+  text-align: justify;
+  text-justify: inter-character;
 }
 
 body {
@@ -28,8 +30,8 @@ main {
   max-width: 80%;
   width: 550px;
   border-radius: 10px;
-  background-color: #F1F1F1;
-  box-shadow: 0.3em 0.3em #3535354D;
+  background-color: #f1f1f1;
+  box-shadow: 0.3em 0.3em #3535354d;
   display: flex;
   flex-direction: column;
   padding: 2em 2em 1.6em 2em;
@@ -50,7 +52,6 @@ footer {
 
 i {
   padding: 0.1em;
-  color: black;
 }
 
 .quotation-mark {
