@@ -11,7 +11,8 @@ A web page that displays random quote. This is one of my project for [Front End 
 
 ## Live demo
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app). It is deplay to [Netlify](https://www.netlify.com/):  
+https://the-quote.netlify.app/
 
 ## Final Product
 
