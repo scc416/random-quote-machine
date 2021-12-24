@@ -5,7 +5,7 @@ const App = () => {
   const { quote, author, getRandomQuote } = useQuoteData();
 
   return (
-    <div className="container">
+    <main>
       <div>
         <i className="fa-xs fas fa-quote-left quotation-mark"></i>
         {quote}
@@ -43,7 +43,7 @@ const App = () => {
           New Quote
         </button>
       </footer>
-    </div>
+    </main>
   );
 };
 
