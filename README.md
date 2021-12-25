@@ -36,6 +36,7 @@ https://the-quote.netlify.app/
 ## Dependencies
 
 - [React](https://reactjs.org/): library for building the UI
+- [Font Awesome](https://fontawesome.com/): for icons
 
 ## Credit
 
