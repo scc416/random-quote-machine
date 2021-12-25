@@ -6,6 +6,7 @@ A web page that displays random quote. This is one of my project for [Front End 
 
 - [Live Demo](#live-demo)
 - [Final Product](#final-product)
+- [Dependencies](#dependencies)
 - [Getting Started](#getting-started)
 - [Credit](#credit)
 
@@ -31,6 +32,10 @@ https://the-quote.netlify.app/
 3. Install all dependencies with `npm install` command
 4. Run the app in the development mode with `npm start` command
 5. Open the broswer and visit: [http://localhost:8080/](http://localhost:8080/)
+
+## Dependencies
+
+- [React](https://reactjs.org/): library for building the UI
 
 ## Credit
 
